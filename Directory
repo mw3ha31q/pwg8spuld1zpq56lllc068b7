@@ -1,0 +1,15 @@
+project-root/
+├── .env                         # Environment variables
+├── package.json                 # Project dependencies
+├── README.md                    # Project documentation
+├── index.js                     # Application entry point
+└── src/
+    ├── server.js                # Main server file
+    ├── middleware/
+    │   ├── domainMiddleware.js  # Domain handling middleware
+    │   └── staticFilesMiddleware.js # Static file serving middleware
+    ├── services/
+    │   └── domainService.js     # Domain-related business logic
+    └── utils/
+        ├── errorHandlers.js     # Global error handling
+        └── telegram.js          # Telegram notification utilities
